@@ -1,0 +1,129 @@
+// File links for Sass
+@import 'mixin.scss';
+@import 'reset.scss';
+
+// Fonts url link for Sass
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin        : 0;
+    padding       : 0;
+    box-sizing    : border-box;
+    font-size     : 16px;
+    letter-spacing: 0em;
+    font-family   : 'Mulish', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+//......Header of Page.......//
+.header-navBar {
+
+    display        : flex;
+    justify-content: space-between;
+    padding-top    : 3.5rem;
+
+    //    Logo on Header
+    #logo {
+        display: flex;
+
+        // Logo Title
+        .logo-tt {
+            font-size       : 1.625rem;
+            font-style      : normal;
+            font-weight     : 700;
+            line-height     : 32.63px;
+            color           : $txt-color-wht;
+            width           : 41px;
+            height          : 41px;
+            border-radius   : 50%;
+            background-color: $back-color-btn-blue;
+            text-align      : center;
+            padding         : 5px;
+
+        }
+
+        // Logo Title Explain
+        .logo-explain {
+            font-size   : 1.5rem;
+            font-style  : normal;
+            font-weight : 700;
+            line-height : 30px;
+            padding-top : 6px;
+            padding-left: 12px;
+        }
+
+    }
+
+    //  Navigation Menu on Header
+    .nav-menu {
+        display: flex;
+
+        // Navigation List
+        & li {
+            list-style: none;
+            padding   : 14px 2.5rem 0px 0px;
+
+            a {
+                @extend .headerNav-txt-size;
+                color: $txt-color-gry;
+
+                &:focus {
+                    color      : $txt-color-blck;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+
+
+}
+
+//......Vitual HealtCare of Page....//
+#virtual-health {
+    padding-top: 5.25rem;
+
+
+    .virtual-layout {
+        display: flex;
+
+
+        // Content of Virtual HealtCare in Left  
+        .virtual-layout-left {
+
+            //  Virtual HealtCare Title 
+            .virtual-tt {
+                @extend .h1-size;
+                width: 80%;
+            }
+
+            //  Virtual HealtCare Description
+            .virtual-description {
+                width: 70%;
+                @extend .h4-size-max;
+            }
+
+            //  Virtual HealtCare Button
+            .virtual-btn {
+                @include button;
+                background-color: $back-color-btn-blue;
+                color           : $txt-color-wht;
+                text-align      : center;
+                color           : white;
+
+                // // Virtual Button Hover
+               & ::hover {
+                    background-color: red;
+    
+                }
+            }
+
+           
+        }
+
+    }
+}

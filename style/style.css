@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap");
+.h1-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-tt {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+}
+
+.h2-size-max {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.h2-size-min {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.h3-size-max {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.h3-size-min {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.h4-size-max, #virtual-health .virtual-layout .virtual-layout-left .virtual-description {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.h4-size-min {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.h5-size-max {
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.h5-size-med {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.h5-size-min {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.h6-size-max {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.h6-size-med {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.h6-size-min {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+.btn-txt-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-btn {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.headerNav-txt-size, .header-navBar .nav-menu li a {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.59px;
+}
+
+.h1-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-tt {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+}
+
+.h2-size-max {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.h2-size-min {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.h3-size-max {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.h3-size-min {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.h4-size-max, #virtual-health .virtual-layout .virtual-layout-left .virtual-description {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.h4-size-min {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.h5-size-max {
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.h5-size-med {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.h5-size-min {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.h6-size-max {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.h6-size-med {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.h6-size-min {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+.btn-txt-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-btn {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.headerNav-txt-size, .header-navBar .nav-menu li a {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.59px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 0em;
+  font-family: 'Mulish', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3.5rem;
+}
+
+.header-navBar #logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-navBar #logo .logo-tt {
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32.63px;
+  color: white;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #458ff6;
+  text-align: center;
+  padding: 5px;
+}
+
+.header-navBar #logo .logo-explain {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  padding-top: 6px;
+  padding-left: 12px;
+}
+
+.header-navBar .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-navBar .nav-menu li {
+  list-style: none;
+  padding: 14px 2.5rem 0px 0px;
+}
+
+.header-navBar .nav-menu li a {
+  color: #7d7987;
+}
+
+.header-navBar .nav-menu li a:focus {
+  color: #1f1534;
+  font-weight: 700;
+}
+
+#virtual-health {
+  padding-top: 5.25rem;
+}
+
+#virtual-health .virtual-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#virtual-health .virtual-layout .virtual-layout-left .virtual-tt {
+  width: 80%;
+}
+
+#virtual-health .virtual-layout .virtual-layout-left .virtual-description {
+  width: 70%;
+}
+
+#virtual-health .virtual-layout .virtual-layout-left .virtual-btn {
+  display: block;
+  height: 3.5rem;
+  width: 12.5rem;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  background-color: #458ff6;
+  color: white;
+  text-align: center;
+  color: white;
+}
+
+#virtual-health .virtual-layout .virtual-layout-left .virtual-btn ::hover {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */
