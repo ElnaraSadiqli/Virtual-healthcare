@@ -7,7 +7,7 @@
   letter-spacing: 0em;
 }
 
-.h2-size-max {
+.h2-size-max, #services .services-content .services-tt {
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
@@ -70,14 +70,14 @@
   line-height: 23px;
 }
 
-.h6-size-max {
+.h6-size-max, #services .services-cards .card-service p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
   line-height: 28px;
 }
 
-.h6-size-med {
+.h6-size-med, #services .services-content .services-desc {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 300;
@@ -91,7 +91,7 @@
   line-height: 38px;
 }
 
-.btn-txt-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-btn {
+.btn-txt-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-btn, #services .services-footer {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
@@ -103,6 +103,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 22.59px;
+}
+
+.card-tt-size, #services .services-cards .card-service h5 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
 }
 
 .h1-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-tt {
@@ -113,7 +120,7 @@
   letter-spacing: 0em;
 }
 
-.h2-size-max {
+.h2-size-max, #services .services-content .services-tt {
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
@@ -176,14 +183,14 @@
   line-height: 23px;
 }
 
-.h6-size-max {
+.h6-size-max, #services .services-cards .card-service p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
   line-height: 28px;
 }
 
-.h6-size-med {
+.h6-size-med, #services .services-content .services-desc {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 300;
@@ -197,7 +204,7 @@
   line-height: 38px;
 }
 
-.btn-txt-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-btn {
+.btn-txt-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-btn, #services .services-footer {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
@@ -209,6 +216,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 22.59px;
+}
+
+.card-tt-size, #services .services-cards .card-service h5 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
 }
 
 * {
@@ -294,6 +308,10 @@ a {
   display: flex;
 }
 
+#virtual-health .virtual-layout .virtual-layout-left {
+  padding-top: 4rem;
+}
+
 #virtual-health .virtual-layout .virtual-layout-left .virtual-tt {
   width: 80%;
 }
@@ -315,6 +333,68 @@ a {
 }
 
 #virtual-health .virtual-layout .virtual-layout-left .virtual-btn ::hover {
-  background-color: red;
+  background-color: transparent;
+}
+
+#services {
+  padding-top: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#services .services-content {
+  text-align: center;
+}
+
+#services .services-content .line-services {
+  width: 3.5rem;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+  margin: 1.5rem 0rem 2rem 33rem;
+}
+
+#services .services-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#services .services-cards .card-service {
+  border-radius: 20px;
+  padding-top: 3.5rem;
+  -webkit-box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+          box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  border: 1px solid transparent;
+  margin-top: 2rem;
+}
+
+#services .services-cards .card-service img {
+  margin-right: 16rem;
+}
+
+#services .services-cards .card-service h5 {
+  margin-top: 1rem;
+}
+
+#services .services-footer {
+  display: block;
+  height: 3.5rem;
+  width: 12.5rem;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  text-align: center;
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
