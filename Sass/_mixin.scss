@@ -1,0 +1,12 @@
+// Reset file 
+@import '_variables.scss';
+
+// Button Mixin
+@mixin button {
+  display: block;
+    height: 3.5rem;
+    width        : 12.5rem;
+    border-radius: 55px;
+    border       : 1.4px solid $brd-color-blue;
+    @extend .btn-txt-size;
+}

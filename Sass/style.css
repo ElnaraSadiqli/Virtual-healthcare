@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap");
-.h1-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-tt {
+.h1-size, #virtual-health .virtual-layout-left .virtual-tt {
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
@@ -35,7 +35,7 @@
   line-height: 48px;
 }
 
-.h4-size-max, #virtual-health .virtual-layout .virtual-layout-left .virtual-description {
+.h4-size-max, #virtual-health .virtual-layout-left .virtual-description {
   font-size: 21px;
   font-style: normal;
   font-weight: 300;
@@ -91,120 +91,7 @@
   line-height: 38px;
 }
 
-.btn-txt-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-btn, #services .services-footer {
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 60px;
-}
-
-.headerNav-txt-size, .header-navBar .nav-menu li a {
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22.59px;
-}
-
-.card-tt-size, #services .services-cards .card-service h5 {
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
-}
-
-.h1-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-tt {
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
-  letter-spacing: 0em;
-}
-
-.h2-size-max, #services .services-content .services-tt {
-  font-size: 2.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
-}
-
-.h2-size-min {
-  font-size: 2.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
-}
-
-.h3-size-max {
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
-}
-
-.h3-size-min {
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
-}
-
-.h4-size-max, #virtual-health .virtual-layout .virtual-layout-left .virtual-description {
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 32px;
-}
-
-.h4-size-min {
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
-}
-
-.h5-size-max {
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.h5-size-med {
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px;
-}
-
-.h5-size-min {
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23px;
-}
-
-.h6-size-max, #services .services-cards .card-service p {
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 28px;
-}
-
-.h6-size-med, #services .services-content .services-desc {
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 30px;
-}
-
-.h6-size-min {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 38px;
-}
-
-.btn-txt-size, #virtual-health .virtual-layout .virtual-layout-left .virtual-btn, #services .services-footer {
+.btn-txt-size, #virtual-health .virtual-layout-left .virtual-btn, #services .services-footer {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
@@ -232,17 +119,137 @@
           box-sizing: border-box;
   font-size: 16px;
   letter-spacing: 0em;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+
+li {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
 }
 
+.h1-size, #virtual-health .virtual-layout-left .virtual-tt {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+}
+
+.h2-size-max, #services .services-content .services-tt {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.h2-size-min {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.h3-size-max {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.h3-size-min {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.h4-size-max, #virtual-health .virtual-layout-left .virtual-description {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.h4-size-min {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.h5-size-max {
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.h5-size-med {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.h5-size-min {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.h6-size-max, #services .services-cards .card-service p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.h6-size-med, #services .services-content .services-desc {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.h6-size-min {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+.btn-txt-size, #virtual-health .virtual-layout-left .virtual-btn, #services .services-footer {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.headerNav-txt-size, .header-navBar .nav-menu li a {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.59px;
+}
+
+.card-tt-size, #services .services-cards .card-service h5 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
 .header-navBar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -253,29 +260,24 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-navBar #logo .logo-tt {
-  font-size: 1.625rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32.63px;
-  color: white;
   width: 41px;
   height: 41px;
   border-radius: 50%;
   background-color: #458ff6;
-  text-align: center;
-  padding: 5px;
+  color: white;
+  font: normal 700 1.625rem/32.63px "Mulish", sans-serif;
+  padding-top: 5px;
 }
 
 .header-navBar #logo .logo-explain {
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  padding-top: 6px;
-  padding-left: 12px;
+  font: normal 700 1.5rem/30px "Mulish", sans-serif;
+  padding-left: 0.5rem !important;
 }
 
 .header-navBar .nav-menu {
@@ -302,42 +304,9 @@ a {
   padding-top: 5.25rem;
 }
 
-#virtual-health .virtual-layout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#virtual-health .virtual-layout .virtual-layout-left {
-  padding-top: 4rem;
-}
-
-#virtual-health .virtual-layout .virtual-layout-left .virtual-tt {
-  width: 80%;
-}
-
-#virtual-health .virtual-layout .virtual-layout-left .virtual-description {
-  width: 70%;
-}
-
-#virtual-health .virtual-layout .virtual-layout-left .virtual-btn {
-  display: block;
-  height: 3.5rem;
-  width: 12.5rem;
-  border-radius: 55px;
-  border: 1.4px solid #458FF6;
-  background-color: #458ff6;
-  color: white;
-  text-align: center;
-  color: white;
-}
-
-#virtual-health .virtual-layout .virtual-layout-left .virtual-btn ::hover {
-  background-color: transparent;
-}
-
-#services {
-  padding-top: 12rem;
+#virtual-health .virtual-layout-left {
+  padding-top: 4.5rem;
+  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,15 +314,49 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#virtual-health .virtual-layout-left .virtual-tt {
+  width: 70%;
+}
+
+#virtual-health .virtual-layout-left .virtual-description {
+  width: 70%;
+}
+
+#virtual-health .virtual-layout-left .virtual-btn {
+  display: block;
+  height: 3.5rem;
+  width: 12.5rem;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  background-color: #458ff6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#virtual-health .virtual-layout-left .virtual-btn a {
+  color: white;
+}
+
+#virtual-health .virtual-layout-left .virtual-btn:hover {
+  background-color: transparent;
+  color: #458ff6;
+}
+
+#services {
+  padding-top: 12rem;
 }
 
 #services .services-content {
   text-align: center;
+}
+
+#services .services-content hr {
+  width: 56px;
+  margin-left: 38rem;
 }
 
 #services .services-content .line-services {
