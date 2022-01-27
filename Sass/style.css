@@ -7,14 +7,14 @@
   letter-spacing: 0em;
 }
 
-.h2-size-max, #services .services-content .services-tt {
+.h2-size-max, #services .services-content .services-tt, #leading .leading-layout-right .leading-tt, #article .article-header {
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: 56px;
 }
 
-.h2-size-min {
+.h2-size-min, #download-apps .download-apps-left .download-apps-tt {
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
@@ -35,14 +35,14 @@
   line-height: 48px;
 }
 
-.h4-size-max, #virtual-health .virtual-layout-left .virtual-description {
+.h4-size-max, #virtual-health .virtual-layout-left .virtual-description, #article .cards-article .card-article .card-article-content h4 {
   font-size: 21px;
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
 }
 
-.h4-size-min {
+.h4-size-min, #footerOfPage .footer-navigation .first-li-foot {
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
@@ -70,28 +70,28 @@
   line-height: 23px;
 }
 
-.h6-size-max, #services .services-cards .card-service p {
+.h6-size-max, #services .services-cards .card-service .card-text-services, #article .cards-article .card-article .card-article-content p, #article .cards-article .card-article .card-article-content .card-article-footer, #footerOfPage .footer-about .about-txt-footer {
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
   line-height: 28px;
 }
 
-.h6-size-med, #services .services-content .services-desc {
+.h6-size-med, #services .services-content .services-desc, #leading .leading-layout-right .leading-description, #download-apps .download-apps-left .download-apps-desc {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 300;
   line-height: 30px;
 }
 
-.h6-size-min {
+.h6-size-min, #footerOfPage .footer-navigation a {
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: 38px;
 }
 
-.btn-txt-size, #virtual-health .virtual-layout-left .virtual-btn, #services .services-footer {
+.btn-txt-size, #virtual-health .virtual-layout-left .virtual-btn, #services .services-footer, #leading .leading-layout-right .leading-btn, #download-apps .download-apps-left .download-apps-button, #article .article-btn {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
@@ -105,7 +105,7 @@
   line-height: 22.59px;
 }
 
-.card-tt-size, #services .services-cards .card-service h5 {
+.card-tt-size, #services .services-cards .card-service .card-title-services {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
@@ -120,6 +120,15 @@
   font-size: 16px;
   letter-spacing: 0em;
   font-family: "Mulish", sans-serif;
+}
+
+hr {
+  width: 3.5rem;
+  border: 1px solid black;
+}
+
+button {
+  background-color: transparent;
 }
 
 li {
@@ -138,14 +147,14 @@ a {
   letter-spacing: 0em;
 }
 
-.h2-size-max, #services .services-content .services-tt {
+.h2-size-max, #services .services-content .services-tt, #leading .leading-layout-right .leading-tt, #article .article-header {
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: 56px;
 }
 
-.h2-size-min {
+.h2-size-min, #download-apps .download-apps-left .download-apps-tt {
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
@@ -166,14 +175,14 @@ a {
   line-height: 48px;
 }
 
-.h4-size-max, #virtual-health .virtual-layout-left .virtual-description {
+.h4-size-max, #virtual-health .virtual-layout-left .virtual-description, #article .cards-article .card-article .card-article-content h4 {
   font-size: 21px;
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
 }
 
-.h4-size-min {
+.h4-size-min, #footerOfPage .footer-navigation .first-li-foot {
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
@@ -201,28 +210,28 @@ a {
   line-height: 23px;
 }
 
-.h6-size-max, #services .services-cards .card-service p {
+.h6-size-max, #services .services-cards .card-service .card-text-services, #article .cards-article .card-article .card-article-content p, #article .cards-article .card-article .card-article-content .card-article-footer, #footerOfPage .footer-about .about-txt-footer {
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
   line-height: 28px;
 }
 
-.h6-size-med, #services .services-content .services-desc {
+.h6-size-med, #services .services-content .services-desc, #leading .leading-layout-right .leading-description, #download-apps .download-apps-left .download-apps-desc {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 300;
   line-height: 30px;
 }
 
-.h6-size-min {
+.h6-size-min, #footerOfPage .footer-navigation a {
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: 38px;
 }
 
-.btn-txt-size, #virtual-health .virtual-layout-left .virtual-btn, #services .services-footer {
+.btn-txt-size, #virtual-health .virtual-layout-left .virtual-btn, #services .services-footer, #leading .leading-layout-right .leading-btn, #download-apps .download-apps-left .download-apps-button, #article .article-btn {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
@@ -236,7 +245,7 @@ a {
   line-height: 22.59px;
 }
 
-.card-tt-size, #services .services-cards .card-service h5 {
+.card-tt-size, #services .services-cards .card-service .card-title-services {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
@@ -343,6 +352,9 @@ a {
 
 #virtual-health .virtual-layout-left .virtual-btn:hover {
   background-color: transparent;
+}
+
+#virtual-health .virtual-layout-left .virtual-btn:hover a {
   color: #458ff6;
 }
 
@@ -354,41 +366,46 @@ a {
   text-align: center;
 }
 
-#services .services-content hr {
-  width: 56px;
+#services .services-content .services-line {
   margin-left: 38rem;
 }
 
-#services .services-content .line-services {
-  width: 3.5rem;
-  border-bottom: 2px solid black;
-  border-radius: 5px;
-  margin: 1.5rem 0rem 2rem 33rem;
+#services .services-content .services-desc {
+  width: 73%;
+  margin: 0px auto !important;
 }
 
 #services .services-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  position: relative;
+}
+
+#services .services-cards .bck-img-services-card {
+  position: absolute;
+  left: -15.5rem;
+  top: 1.5rem;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 #services .services-cards .card-service {
   border-radius: 20px;
-  padding-top: 3.5rem;
+  padding: 3.5rem 2.5rem;
+  margin-top: 4.5rem;
+  background-color: #ffff;
   -webkit-box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
           box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
-  border: 1px solid transparent;
-  margin-top: 2rem;
 }
 
-#services .services-cards .card-service img {
-  margin-right: 16rem;
-}
-
-#services .services-cards .card-service h5 {
+#services .services-cards .card-service .card-title-services {
   margin-top: 1rem;
+}
+
+#services .services-cards .card-service .card-text-services {
+  width: 80%;
+}
+
+#services .services-cards .card-service:hover {
+  border: 2px solid #458ff6;
 }
 
 #services .services-footer {
@@ -397,7 +414,228 @@ a {
   width: 12.5rem;
   border-radius: 55px;
   border: 1.4px solid #458FF6;
+  margin: 9rem auto;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#services .services-footer:hover {
+  background-color: #458ff6;
+}
+
+#services .services-footer:hover a {
+  color: white;
+}
+
+#leading .leading-layout-right {
+  width: 64%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 12rem;
+}
+
+#leading .leading-layout-right .leading-tt {
+  color: #1f1534;
+}
+
+#leading .leading-layout-right .leading-description {
+  color: #7d7987;
+}
+
+#leading .leading-layout-right .leading-btn {
+  display: block;
+  height: 3.5rem;
+  width: 12.5rem;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#leading .leading-layout-right .leading-btn:hover {
+  background-color: #458ff6;
+}
+
+#leading .leading-layout-right .leading-btn:hover a {
+  color: white;
+}
+
+#download-apps {
+  padding-top: 12rem;
+}
+
+#download-apps .download-apps-left {
+  height: 100%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 12rem;
+}
+
+#download-apps .download-apps-left .download-apps-button {
+  display: block;
+  height: 3.5rem;
+  width: 12.5rem;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#download-apps .download-apps-left .download-apps-button:hover {
+  background-color: #458ff6;
+}
+
+#download-apps .download-apps-left .download-apps-button:hover a {
+  color: white;
+}
+
+#article {
+  padding-top: 10rem;
+}
+
+#article .article-header {
   text-align: center;
-  margin-top: 3rem;
+}
+
+#article .article-line {
+  margin: 1.8rem auto 4.5rem;
+}
+
+#article .cards-article .card-article {
+  border: 1px solid white;
+  background-color: #ffff;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+          box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#article .cards-article .card-article img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+}
+
+#article .cards-article .card-article .card-article-content {
+  width: 70%;
+  height: 53%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 23px;
+}
+
+#article .cards-article .card-article .card-article-content h4 {
+  font-weight: 700;
+}
+
+#article .cards-article .card-article .card-article-content .card-article-footer {
+  font-weight: 600;
+  padding: 2.5rem 0px;
+}
+
+#article .cards-article .card-article .card-article-content .card-article-footer i {
+  margin-left: 1rem;
+}
+
+#article .cards-article .card-article:hover {
+  border-color: #458FF6;
+}
+
+#article .article-btn {
+  display: block;
+  height: 3.5rem;
+  width: 12.5rem;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  margin: 4rem auto;
+  border: 1px solid #458FF6;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#article .article-btn:hover {
+  background-color: #458ff6;
+}
+
+#article .article-btn:hover a {
+  color: white;
+}
+
+#footerOfPage {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+#footerOfPage .footer-about {
+  padding-top: 9rem;
+  margin-left: -6rem;
+  color: white;
+}
+
+#footerOfPage .footer-about .logo-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footerOfPage .footer-about .logo-footer .logo-tt-foot {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #458ff6;
+  color: white;
+  font: normal 700 1.625rem/32.63px "Mulish", sans-serif;
+  padding-top: 5px;
+}
+
+#footerOfPage .footer-about .logo-footer .logo-explain-foot {
+  font: normal 700 1.5rem/30px "Mulish", sans-serif;
+  padding-left: 0.5rem !important;
+}
+
+#footerOfPage .footer-about .about-txt-footer {
+  font-size: 18px;
+  padding-top: 1rem;
+}
+
+#footerOfPage .footer-navigation {
+  padding-top: 9rem !important;
+}
+
+#footerOfPage .footer-navigation .first-li-foot {
+  color: white;
+}
+
+#footerOfPage .footer-navigation a {
+  color: white;
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

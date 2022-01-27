@@ -1,4 +1,4 @@
-//......Header of Page.......//
+//....................................Header..................................//
 
 //navBar on Header
 .header-navBar {
@@ -55,7 +55,7 @@
 
 }
 
-//......Vitual HealtCare of Page....//
+//......Vitual HealtCare....//
 #virtual-health {
     padding-top: 5.25rem;
 
@@ -94,7 +94,10 @@
             // // Virtual Button Hover
             &:hover {
                 background-color: transparent;
-                color: $txt-color-blue;
+
+                a {
+                    color: $txt-color-blue;
+                }
             }
 
 
@@ -105,17 +108,15 @@
 
 }
 
-// ........Services Section of Image...//
+// .........................................Main..................................//
+// ........Services Section ...//
 #services {
     padding-top: 12rem;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // align-content: center;
 
     //Content of Services
     .services-content {
         text-align: center;
+
 
         // Title of Services
         .services-tt {
@@ -123,57 +124,308 @@
         }
 
         // <!-- Line under title of Services -->
-        hr {
-            width: 56px;
-            margin-left: 38rem;
+        .services-line {
 
+            margin-left: 38rem;
         }
 
         // Description of Services
         .services-desc {
             @extend .h6-size-med;
-
+            width: 73%;
+            margin: 0px auto !important;
         }
 
     }
 
+    // Services Cards
+    .services-cards {
+        position: relative;
 
+        //  Blue  Color image background of Services Card  
+        .bck-img-services-card {
+            position: absolute;
+            left: -15.5rem;
+            top: 1.5rem;
+            opacity: 0.8;
+            z-index: -1;
+        }
+
+        // Card in Services
+        .card-service {
+            border-radius: 20px;
+            padding: 3.5rem 2.5rem;
+            margin-top: 4.5rem;
+            background-color: #ffff;
+            box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+
+            //   Card Title in Services 
+            .card-title-services {
+                margin-top: 1rem;
+                @extend .card-tt-size;
+            }
+
+            //   Card Content in Services 
+            .card-text-services {
+                @extend .h6-size-max;
+                width: 80%;
+            }
+
+            // Card hover in Services
+            &:hover {
+                border: 2px solid $back-color-btn-blue;
+            }
+        }
+
+    }
+
+    // Services Footer 
+    .services-footer {
+        @include button;
+        margin: 4rem+5 auto;
+        transition: 1s;
+
+        // Services Footer hover
+        &:hover {
+            background-color: $txt-color-blue;
+
+            a {
+                color: $txt-color-wht;
+            }
+        }
+    }
 }
 
-// Services Cards
-.services-cards {
+// Leading Section 
+#leading {
 
-    //    Card in Services
-    .card-service {
-        border-radius: 20px;
-        padding-top: 3.5rem;
-        box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
-        margin-top: 2rem;
-       background-color: aqua;
-        
+    // Content right of Leading
+    .leading-layout-right {
+        width: 64%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 12rem;
 
-        //   Card Image in Services 
-        img {
-            margin-right: 16rem;
+        // Leading Title
+        .leading-tt {
+            @extend .h2-size-max;
+            color: $txt-color-blck
         }
 
-        //   Card Title in Services 
-        h5 {
-            margin-top: 1rem;
-            @extend .card-tt-size;
+        // Leading Description
+        .leading-description {
+            @extend .h6-size-med;
+            color: $txt-color-gry;
+
         }
 
-        //   Card Content in Services 
-        p {
+        // Leading Botton
+        .leading-btn {
+            @include button;
+            transition: 1s;
+
+            // Leading Button Hover
+            &:hover {
+                background-color: $txt-color-blue;
+
+                a {
+                    color: $txt-color-wht;
+                }
+            }
+
+        }
+    }
+}
+
+// Download Apps section
+#download-apps {
+    padding-top: 12rem;
+
+    // Download Apps in left of section
+    .download-apps-left {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 12rem;
+
+        // Download Mobile Apps Title
+        .download-apps-tt {
+            @extend .h2-size-min;
+        }
+
+        // Download apps description
+        .download-apps-desc {
+            @extend .h6-size-med;
+        }
+
+        // Download Mobile Apps Button
+        .download-apps-button {
+            @include button;
+            transition: 1s;
+
+            &:hover {
+                background-color: $back-color-btn-blue;
+
+                a {
+                    color: $txt-color-wht;
+                }
+            }
+        }
+
+    }
+}
+
+//.............Article Section..........//
+#article {
+    padding-top: 10rem;
+
+    //..Article Title
+    .article-header {
+        text-align: center;
+        @extend .h2-size-max;
+
+    }
+
+    //.Article Line
+    .article-line {
+        margin: 1.8rem auto 4.5rem;
+    }
+
+    //.....Cards of Article section
+    .cards-article {
+
+        .card-article {
+            border: 1px solid white;
+            background-color: #ffff;
+            border-radius: 20px;
+            box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+            transition: 1s;
+
+            // Card image of Article
+            img {
+                border-radius: 20px 20px 0px 0px;
+                width: 100%;
+            }
+
+            // Card content of article
+            .card-article-content {
+                width: 70%;
+                height: 53%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin-left: 23px;
+
+                // // Card title of Article
+                h4 {
+                    @extend .h4-size-max;
+                    font-weight: 700;
+                }
+
+                // // Card description of Article
+                p {
+                    @extend .h6-size-max;
+
+                }
+
+                // //Card  Klik footer of  Article
+                .card-article-footer {
+                    @extend .h6-size-max;
+                    font-weight: 600;
+                    padding: 2.5rem 0px;
+
+                    // Icon of Article Card klik
+                    i {
+                        margin-left: 1rem;
+                    }
+                }
+
+
+            }
+
+            &:hover {
+                border-color: $brd-color-blue;
+            }
+        }
+
+    }
+
+    // Article Button
+    .article-btn {
+        @include button;
+        margin: 4rem auto;
+        border: 1px solid $brd-color-blue;
+        transition: 1s;
+
+        // Article btn hover
+        &:hover {
+            background-color: $back-color-btn-blue;
+
+            a {
+                color: $txt-color-wht;
+            }
+        }
+    }
+}
+
+//....................................Footer..................................//
+#footerOfPage {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+   
+// Footer About Section
+    .footer-about {
+        padding-top: 9rem ;
+        margin-left: -6rem;
+        color: $txt-color-wht;
+        // Logo in Footer
+        .logo-footer {
+            display: flex;
+            align-items: center;
+
+            // Lofo Title in Foot
+            .logo-tt-foot {
+                width: 41px;
+                height: 41px;
+                border-radius: 50%;
+                background-color: $back-color-btn-blue;
+                color: $txt-color-wht;
+                font: normal 700 1.625rem/32.63px $font;
+                padding-top: 5px;
+            }
+
+            // Logo Title Explain in Footer
+            .logo-explain-foot {
+                font: normal 700 1.5rem/30px $font;
+                padding-left: 0.5rem !important;
+            }
+        }
+
+        // About of Page in Footer
+        .about-txt-footer {
             @extend .h6-size-max;
+            font-size: 18px;
+            padding-top: 1rem;
         }
-        
-    }
-}
 
-// Services Footer 
-& .services-footer {
-    @include button;
-    text-align: center;
-    margin-top: 3rem;
+    }
+// Footer Navigation
+    .footer-navigation {
+        padding-top: 9rem !important;
+
+        .first-li-foot {
+            @extend .h4-size-min;
+            color: $txt-color-wht;
+        }
+
+        a {
+            color: $txt-color-wht;
+            margin-top: 2rem;
+ @extend .h6-size-min;
+
+        }
+    }
 }
