@@ -196,7 +196,7 @@
     }
 }
 
-// Leading Section 
+//.....................Leading Section 
 #leading {
 
     // Content right of Leading
@@ -239,7 +239,7 @@
     }
 }
 
-// Download Apps section
+//.....................Download Apps section
 #download-apps {
     padding-top: 12rem;
 
@@ -279,12 +279,108 @@
     }
 }
 
-// Costumer Section
-#costumer{
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-    background-image:  url(../Images/element.png);
-    background-repeat: no-repeat;
-    
+//.......................Costumer Section
+#costumer {
+    margin-top: 16.625rem;
+
+    // Costumer Slider
+    .costum-item {
+        background-image: url(../Images/element.png);
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        border-radius: 24px;
+        padding: 64px 118px 89px 120px;
+        color: $txt-color-wht;
+
+        //Costumer Item Header //   
+        h1 {
+            @extend .h1-size;
+            text-align: center;
+        }
+
+        // Costumer Item Header line
+        hr {
+            margin: 1.5rem auto;
+            border-color: white;
+        }
+
+        //  Costumer Content Left
+        img {
+            object-fit: cover;
+            border: 5px solid white;
+
+        }
+
+        // Costum Human Name
+        h4 {
+            @extend .h3-size-min;
+        }
+
+        //Costum Human Profession
+        .costum-human-profession {
+            @extend .h5-size-med;
+        }
+
+    }
+
+    // Costumer section  variables of  default slick regular slider
+ .regular {
+
+    // Costumer section  slider before-after buttons
+        .slick-prev,
+        .slick-next {
+            bottom: -65px;
+            top: unset;
+
+            // Costumer section slider Headen default buttons
+            &:before {
+                display: none;
+            }
+            // Costumer section slider New buttons properties
+            i {
+                color: rgba(69, 143, 246, 1);
+                opacity: 0.4;
+                font-size: 2rem;
+            }
+        }
+
+        // Costum Slider Before Button
+        .slick-prev {
+            left: 40%;
+
+        }
+
+        // Costum Slider Next Button
+        .slick-next {
+          right: 40%;
+        }
+
+        // Costum Slider dots
+        .slick-dots {
+            bottom: -60px;
+
+            // Costum Slider active dots
+            .slick-active button:before {
+                color: rgba(91, 155, 243, 1);
+                opacity: 1;
+                font-size: 12px;
+
+                i {
+                    color: rgba(69, 143, 246, 1);
+                    opacity: 1;
+                }
+
+          }
+            // Costum Slider none active dots
+            li button:before {
+                font-size: 10px;
+                color: rgba(91, 155, 243, 1);
+                opacity: 0.3;
+            }
+        }
+
+
+    }
+
 }
 
 //.............Article Section..........//
@@ -383,12 +479,13 @@
 //....................................Footer..................................//
 #footerOfPage {
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-   
-// Footer About Section
+
+    // Footer About Section
     .footer-about {
-        padding-top: 9rem ;
+        padding-top: 9rem;
         margin-left: -6rem;
         color: $txt-color-wht;
+
         // Logo in Footer
         .logo-footer {
             display: flex;
@@ -420,7 +517,8 @@
         }
 
     }
-// Footer Navigation
+
+    // Footer Navigation
     .footer-navigation {
         padding-top: 9rem !important;
 
@@ -432,9 +530,8 @@
         a {
             color: $txt-color-wht;
             margin-top: 2rem;
- @extend .h6-size-min;
+            @extend .h6-size-min;
 
         }
     }
 }
-

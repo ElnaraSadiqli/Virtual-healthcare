@@ -33,7 +33,7 @@
         }
 
         .slider {
-            width: 50%;
+            width: 100%;
 
         }
 
@@ -64,7 +64,6 @@
             opacity: 1;
         }
     </style>
-    <!-- Css Link -->
 
     <title>TrafalGar</title>
 </head>
@@ -366,19 +365,156 @@
 
         <!-- Costumer Section -->
         <section id="costumer">
-            <div class="regular slider">
-                <div>
-                    <img src="http://placehold.it/350x300?text=1">
-                </div>
+            <div class="container">
 
-                <div>
-                    <img src="http://placehold.it/350x300?text=2">
-                </div>
+                <!-- Costumer slider -->
+                <section class="regular slider" >
+                    <!-- Costumer slide aktiv page  -->
+                    <div class="costum-item">
+                        <!-- Costumer  header  -->
+                        <h1 class="m-0 p-0">What our costumer are saying</h1>
+                        <hr>
+                        <!-- Costumer  Content-->
+
+                        <div class="row align-items-center">
+
+                            <!-- Costumer Content Left-->
+                            <div class="col-12 col-lg-6">
+                                <div class="costum-left">
+                                    <div class="row align-items-center">
+                                        <!-- Costumer Content Left "Profile Image"-->
+                                        <div class="col-12 col-lg-5">
+                                            <img class="costum-profile-img rounded-circle w-100 "
+                                                src="Images/Costumer/costumer.image.png"
+                                                alt="Costumer slider profile img">
+
+                                        </div>
+                                        <!-- Costumer Content Left "About Human"-->
+                                        <div class="col-12 col-lg-7">
+                                            <h4>Edward Newgate</h4>
+                                            <p class="m-0 p-0 costum-human-profession">Founder Circle</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Costumer Content right-->
+                            <div class="col-12 col-lg-6">
+                                <div class="costum-right">
+
+                                    <!-- Costumer Content right "Human's mind"-->
+                                    <p class="m-0 p-0">
+                                        “Our dedicated patient engagement app and
+                                        web portal allow you to access information instantaneously (no tedeous form,
+                                        long calls,
+                                        or administrative hassle) and securely”
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Costumer slide second page -->
+                    <div class="costum-item">
+                        <!-- Costumer  header  -->
+                        <h1 class="m-0 p-0">What our costumer are saying</h1>
+                        <hr>
+                        <!-- Costumer  Content-->
+
+                        <div class="row align-items-center">
+
+                            <!-- Costumer Content Left-->
+                            <div class="col-12 col-lg-6">
+                                <div class="costum-left">
+                                    <div class="row align-items-center">
+                                        <!-- Costumer Content Left "Profile Image"-->
+                                        <div class="col-12 col-lg-5">
+                                            <img class="costum-profile-img rounded-circle w-100 "
+                                                src="Images/Costumer/costumer.image.png"
+                                                alt="Costumer slider profile img">
+
+                                        </div>
+                                        <!-- Costumer Content Left "About Human"-->
+                                        <div class="col-12 col-lg-7">
+                                            <h4>Edward Newgate</h4>
+                                            <p class="m-0 p-0 costum-human-profession">Founder Circle</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Costumer Content right-->
+                            <div class="col-12 col-lg-6">
+                                <div class="costum-right">
+
+                                    <!-- Costumer Content right "Human's mind"-->
+                                    <p class="m-0 p-0">
+                                        “Our dedicated patient engagement app and
+                                        web portal allow you to access information instantaneously (no tedeous form,
+                                        long calls,
+                                        or administrative hassle) and securely”
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Costumer slide third page -->
+                    <div class="costum-item">
+                        <!-- Costumer  header  -->
+                        <h1 class="m-0 p-0">What our costumer are saying</h1>
+                        <hr>
+                        <!-- Costumer  Content-->
+                        <div class="row align-items-center">
+
+                            <!-- Costumer Content Left-->
+                            <div class="col-12 col-lg-6">
+                                <div class="costum-left">
+                                    <div class="row align-items-center">
+                                        <!-- Costumer Content Left "Profile Image"-->
+                                        <div class="col-12 col-lg-5">
+                                            <img class="costum-profile-img rounded-circle w-100 "
+                                                src="Images/Costumer/costumer.image.png"
+                                                alt="Costumer slider profile img">
+
+                                        </div>
+                                        <!-- Costumer Content Left "About Human"-->
+                                        <div class="col-12 col-lg-7">
+                                            <h4>Edward Newgate</h4>
+                                            <p class="m-0 p-0 costum-human-profession">Founder Circle</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Costumer Content right-->
+                            <div class="col-12 col-lg-6">
+                                <div class="costum-right">
+
+                                    <!-- Costumer Content right "Human's mind"-->
+                                    <p class="m-0 p-0">
+                                        “Our dedicated patient engagement app and
+                                        web portal allow you to access information instantaneously (no tedeous form,
+                                        long calls,
+                                        or administrative hassle) and securely”
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
 
             </div>
-        </section>
 
-        <!-- Article Section -->
+  </section>
+
+ <!-- Article Section -->
         <section id="article">
             <div class="container">
                 <!--  Header of Article section -->
@@ -553,40 +689,17 @@
         // Regular Slider for Costumer section
         $(document).on('ready', function () {
 
-            $("#costum .regular").slick({
+            $("#costumer  .regular").slick({
                 dots: true,
                 infinite: true,
                 slidesToShow: 1,
+                prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fas fa-arrow-left'  aria-hidden='true'></i></button>",
+                nextArrow:"<button type='button' class='slick-next pull-right'><i class='fas fa-arrow-right' aria-hidden='true'></i></button>",
                 slidesToScroll: 1
             });
 
         });
 
-        // Responsive design in Regular  Slider for Costumer section
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
     </script>
 
 </body>
