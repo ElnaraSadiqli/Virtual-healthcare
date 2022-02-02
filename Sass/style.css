@@ -112,6 +112,48 @@
   line-height: 56px;
 }
 
+@media only screen and (max-width: 767px) {
+  .h1-size, #virtual-health .virtual-layout-left .virtual-tt, #costumer .costum-item h1 {
+    font-size: 2rem;
+  }
+  .h2-size-max, #services .services-content .services-tt, #leading .leading-layout-right .leading-tt, #article .article-header {
+    font-size: 2rem;
+  }
+  .h2-size-min, #download-apps .download-apps-left .download-apps-tt {
+    font-size: 2rem;
+  }
+  .h3-size-max {
+    font-size: 1rem;
+  }
+  .h3-size-min, #costumer .costum-item h4 {
+    font-size: 14px;
+  }
+  .h4-size-max, #virtual-health .virtual-layout-left .virtual-description, #article .cards-article .card-article .card-article-content h4 {
+    font-size: 1rem;
+  }
+  .h4-size-min, #footerOfPage .footer-navigation .first-li-foot {
+    font-size: 14px;
+  }
+  .h5-size-max {
+    font-size: 14px;
+  }
+  .h5-size-med, #costumer .costum-item .costum-human-profession {
+    font-size: 18px;
+  }
+  .h6-size-med, #services .services-content .services-desc, #leading .leading-layout-right .leading-description, #download-apps .download-apps-left .download-apps-desc {
+    font-size: 1rem;
+  }
+  .btn-txt-size, #virtual-health .virtual-layout-left .virtual-btn, #services .services-footer, #leading .leading-layout-right .leading-btn, #download-apps .download-apps-left .download-apps-button, #article .article-btn {
+    font-size: 14px;
+  }
+  .headerNav-txt-size, .header-navBar .nav-menu li a {
+    font-size: 1rem;
+  }
+  .card-tt-size, #services .services-cards .card-service .card-title-services {
+    font-size: 1.125rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -130,6 +172,10 @@ hr {
 
 button {
   background-color: transparent;
+}
+
+body {
+  overflow-x: unset;
 }
 
 li {
@@ -253,6 +299,48 @@ a {
   line-height: 56px;
 }
 
+@media only screen and (max-width: 767px) {
+  .h1-size, #virtual-health .virtual-layout-left .virtual-tt, #costumer .costum-item h1 {
+    font-size: 2rem;
+  }
+  .h2-size-max, #services .services-content .services-tt, #leading .leading-layout-right .leading-tt, #article .article-header {
+    font-size: 2rem;
+  }
+  .h2-size-min, #download-apps .download-apps-left .download-apps-tt {
+    font-size: 2rem;
+  }
+  .h3-size-max {
+    font-size: 1rem;
+  }
+  .h3-size-min, #costumer .costum-item h4 {
+    font-size: 14px;
+  }
+  .h4-size-max, #virtual-health .virtual-layout-left .virtual-description, #article .cards-article .card-article .card-article-content h4 {
+    font-size: 1rem;
+  }
+  .h4-size-min, #footerOfPage .footer-navigation .first-li-foot {
+    font-size: 14px;
+  }
+  .h5-size-max {
+    font-size: 14px;
+  }
+  .h5-size-med, #costumer .costum-item .costum-human-profession {
+    font-size: 18px;
+  }
+  .h6-size-med, #services .services-content .services-desc, #leading .leading-layout-right .leading-description, #download-apps .download-apps-left .download-apps-desc {
+    font-size: 1rem;
+  }
+  .btn-txt-size, #virtual-health .virtual-layout-left .virtual-btn, #services .services-footer, #leading .leading-layout-right .leading-btn, #download-apps .download-apps-left .download-apps-button, #article .article-btn {
+    font-size: 14px;
+  }
+  .headerNav-txt-size, .header-navBar .nav-menu li a {
+    font-size: 1rem;
+  }
+  .card-tt-size, #services .services-cards .card-service .card-title-services {
+    font-size: 1.125rem;
+  }
+}
+
 .header-navBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -310,36 +398,32 @@ a {
   font-weight: 700;
 }
 
+.blue-dots-header {
+  width: 115px;
+  height: 131.58px;
+  opacity: 0.3px;
+  position: relative;
+  top: 100px;
+  left: -115px;
+}
+
 #virtual-health {
   padding-top: 5.25rem;
 }
 
-#virtual-health .virtual-layout-left {
-  padding-top: 4.5rem;
-  height: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 #virtual-health .virtual-layout-left .virtual-tt {
-  width: 70%;
+  width: 75%;
+  padding: 4rem 0rem 2rem;
 }
 
 #virtual-health .virtual-layout-left .virtual-description {
-  width: 70%;
+  width: 81%;
 }
 
 #virtual-health .virtual-layout-left .virtual-btn {
+  margin-top: 3rem;
   display: block;
-  height: 3.5rem;
-  width: 12.5rem;
+  padding: 3px 40px 1px;
   border-radius: 55px;
   border: 1.4px solid #458FF6;
   background-color: #458ff6;
@@ -367,13 +451,17 @@ a {
   text-align: center;
 }
 
+#services .services-content .services-tt {
+  margin-bottom: 26px;
+}
+
 #services .services-content .services-line {
-  margin-left: 38rem;
+  margin: 0px auto;
 }
 
 #services .services-content .services-desc {
   width: 73%;
-  margin: 0px auto !important;
+  margin: 33px auto;
 }
 
 #services .services-cards {
@@ -391,6 +479,7 @@ a {
 #services .services-cards .card-service {
   border-radius: 20px;
   padding: 3.5rem 2.5rem;
+  border: 2px solid #ffff;
   margin-top: 4.5rem;
   background-color: #ffff;
   -webkit-box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
@@ -409,10 +498,21 @@ a {
   border: 2px solid #458ff6;
 }
 
+#services .services-cards .blue-dots-services {
+  width: 115px;
+  height: 131.58px;
+  opacity: 0.3px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  right: -3%;
+  bottom: 44%;
+  z-index: -1;
+}
+
 #services .services-footer {
   display: block;
-  height: 3.5rem;
-  width: 12.5rem;
+  padding: 3px 40px 1px;
   border-radius: 55px;
   border: 1.4px solid #458FF6;
   margin: 9rem auto;
@@ -429,37 +529,28 @@ a {
 }
 
 #leading .leading-layout-right {
-  width: 64%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-left: 12rem;
+  width: 72%;
+  margin-left: 8.875%;
 }
 
 #leading .leading-layout-right .leading-tt {
   color: #1f1534;
+  margin-bottom: 26px;
 }
 
 #leading .leading-layout-right .leading-description {
   color: #7d7987;
+  margin-top: 31px;
 }
 
 #leading .leading-layout-right .leading-btn {
   display: block;
-  height: 3.5rem;
-  width: 12.5rem;
+  padding: 3px 40px 1px;
   border-radius: 55px;
   border: 1.4px solid #458FF6;
   -webkit-transition: 1s;
   transition: 1s;
+  margin-top: 37px;
 }
 
 #leading .leading-layout-right .leading-btn:hover {
@@ -470,32 +561,39 @@ a {
   color: white;
 }
 
+#leading .blue-dots-leading {
+  width: 115px;
+  height: 131.58px;
+  opacity: 0.3px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  right: -3.3%;
+}
+
 #download-apps {
   padding-top: 12rem;
 }
 
 #download-apps .download-apps-left {
-  height: 100%;
   width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-right: 12rem;
+  margin-left: 11%;
+}
+
+#download-apps .download-apps-left .download-apps-tt {
+  margin-bottom: 30px;
+}
+
+#download-apps .download-apps-left .download-apps-desc {
+  margin-top: 31px;
 }
 
 #download-apps .download-apps-left .download-apps-button {
   display: block;
-  height: 3.5rem;
-  width: 12.5rem;
+  padding: 3px 40px 1px;
   border-radius: 55px;
   border: 1.4px solid #458FF6;
+  margin-top: 40px;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -513,7 +611,7 @@ a {
 }
 
 #costumer .costum-item {
-  background-image: url(../Images/element.png);
+  background-image: url(../Images/Costumer/elementgrey.png);
   background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
   border-radius: 24px;
   padding: 64px 118px 89px 120px;
@@ -539,6 +637,7 @@ a {
 #costumer .regular .slick-next {
   bottom: -65px;
   top: unset;
+  z-index: 2;
 }
 
 #costumer .regular .slick-prev:before,
@@ -582,6 +681,18 @@ a {
   opacity: 0.3;
 }
 
+#costumer .blue-dots-costumer {
+  width: 115px;
+  height: 131.58px;
+  opacity: 0.3px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+  right: 6%;
+  bottom: 190px;
+  z-index: -1;
+}
+
 #article {
   padding-top: 10rem;
 }
@@ -610,28 +721,23 @@ a {
 }
 
 #article .cards-article .card-article .card-article-content {
-  width: 70%;
+  width: 73%;
   height: 53%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-left: 23px;
+  margin-left: 10%;
 }
 
 #article .cards-article .card-article .card-article-content h4 {
   font-weight: 700;
+  margin-top: 21px;
+}
+
+#article .cards-article .card-article .card-article-content p {
+  margin-top: 12px;
 }
 
 #article .cards-article .card-article .card-article-content .card-article-footer {
   font-weight: 600;
-  padding: 2.5rem 0px;
+  margin: 25px 0px;
 }
 
 #article .cards-article .card-article .card-article-content .card-article-footer i {
@@ -644,8 +750,7 @@ a {
 
 #article .article-btn {
   display: block;
-  height: 3.5rem;
-  width: 12.5rem;
+  padding: 3px 40px 1px;
   border-radius: 55px;
   border: 1.4px solid #458FF6;
   margin: 4rem auto;
@@ -664,11 +769,7 @@ a {
 
 #footerOfPage {
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-}
-
-#footerOfPage .footer-about {
   padding-top: 9rem;
-  margin-left: -6rem;
   color: white;
 }
 
@@ -701,16 +802,106 @@ a {
   padding-top: 1rem;
 }
 
-#footerOfPage .footer-navigation {
-  padding-top: 9rem !important;
-}
-
-#footerOfPage .footer-navigation .first-li-foot {
-  color: white;
-}
-
 #footerOfPage .footer-navigation a {
   color: white;
   margin-top: 2rem;
 }
+
+#footerOfPage .grey-dots-footer {
+  margin-left: 1px;
+  position: relative;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-mob-menu {
+    background-color: #458ff6;
+    border: 1px solid blue;
+    border-radius: 4px;
+  }
+  .nav-mob-menu i {
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid white;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #virtual-health {
+    padding-top: 3rem;
+  }
+  #virtual-health .virtual-layout-left {
+    text-align: center;
+  }
+  #virtual-health .virtual-layout-left .virtual-tt {
+    width: 100%;
+  }
+  #virtual-health .virtual-layout-left .virtual-description {
+    width: 100%;
+  }
+  #virtual-health .virtual-layout-left .virtual-btn {
+    margin: 45px auto 3rem;
+  }
+  #services {
+    padding-top: 5rem;
+  }
+  #services .services-desc {
+    width: 100%;
+  }
+  #services .services-cards .card-service {
+    text-align: center;
+  }
+  #services .services-cards .card-service .card-text-services {
+    width: 100%;
+  }
+  #leading {
+    text-align: center;
+  }
+  #leading .leading-layout-right {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  #leading .leading-layout-right .leading-line {
+    margin: 0px auto;
+  }
+  #leading .leading-layout-right .leading-btn {
+    margin: 3rem auto;
+  }
+  #download-apps {
+    padding-top: 4rem;
+  }
+  #download-apps .download-apps-left {
+    margin-left: 0%;
+    width: 100%;
+    text-align: center;
+  }
+  #download-apps .download-apps-left .download-apps-line {
+    margin: 0px auto;
+  }
+  #download-apps .download-apps-left .download-apps-button {
+    margin: 3rem auto;
+  }
+  #costumer .regular .slick-prev {
+    left: 27%;
+  }
+  #costumer .regular .slick-next {
+    right: 29%;
+  }
+  #costumer .regular .slick-dots .slick-active button:before {
+    font-size: 10px;
+  }
+  #costumer .regular .slick-dots li button:before {
+    font-size: 8px;
+  }
+  #costumer .costum-item {
+    text-align: center;
+  }
+  #article .cards-article {
+    padding: 20px;
+  }
+  #article .cards-article .card-article {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Medium devices   */
 /*# sourceMappingURL=style.css.map */
